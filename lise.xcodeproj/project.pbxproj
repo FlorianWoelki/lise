@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8012A0342279CB890013ACE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012A0332279CB890013ACE1 /* AppDelegate.swift */; };
+		8012A0362279CB890013ACE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012A0352279CB890013ACE1 /* ViewController.swift */; };
+		8012A0392279CB890013ACE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8012A0372279CB890013ACE1 /* Main.storyboard */; };
+		8012A03B2279CB8A0013ACE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8012A03A2279CB8A0013ACE1 /* Assets.xcassets */; };
+		8012A03E2279CB8A0013ACE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8012A03C2279CB8A0013ACE1 /* LaunchScreen.storyboard */; };
+		8012A0492279CB8A0013ACE1 /* liseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012A0482279CB8A0013ACE1 /* liseTests.swift */; };
+		8012A0542279CB8A0013ACE1 /* liseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012A0532279CB8A0013ACE1 /* liseUITests.swift */; };
+		94EE48B00B24455965977BEA /* Pods_liseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1F3136C3B9E5CE9EC5928E /* Pods_liseUITests.framework */; };
+		B4CDE2D1716965B480FBA4F2 /* Pods_liseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CFBD1FFB0998C50F34B4DD /* Pods_liseTests.framework */; };
+		FF54F4F5E53131EB74A881C6 /* Pods_lise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76837F0E2F7E599BBC39EA94 /* Pods_lise.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8012A0452279CB8A0013ACE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8012A0282279CB880013ACE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8012A02F2279CB880013ACE1;
+			remoteInfo = lise;
+		};
+		8012A0502279CB8A0013ACE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8012A0282279CB880013ACE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8012A02F2279CB880013ACE1;
+			remoteInfo = lise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14A19E34C063EA1C1B05FAB5 /* Pods-liseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liseTests.release.xcconfig"; path = "Target Support Files/Pods-liseTests/Pods-liseTests.release.xcconfig"; sourceTree = "<group>"; };
+		15802373B6CBC4223DF7617E /* Pods-liseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liseTests.debug.xcconfig"; path = "Target Support Files/Pods-liseTests/Pods-liseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F57F96296A4C99E3EBBAF35 /* Pods-lise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lise.release.xcconfig"; path = "Target Support Files/Pods-lise/Pods-lise.release.xcconfig"; sourceTree = "<group>"; };
+		2FE5EF07916A492FB29EA506 /* Pods-liseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liseUITests.debug.xcconfig"; path = "Target Support Files/Pods-liseUITests/Pods-liseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7424E9684B16DAC6A907573E /* Pods-lise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lise.debug.xcconfig"; path = "Target Support Files/Pods-lise/Pods-lise.debug.xcconfig"; sourceTree = "<group>"; };
+		76837F0E2F7E599BBC39EA94 /* Pods_lise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8012A0302279CB880013ACE1 /* lise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8012A0332279CB890013ACE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8012A0352279CB890013ACE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8012A0382279CB890013ACE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8012A03A2279CB8A0013ACE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8012A03D2279CB8A0013ACE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8012A03F2279CB8A0013ACE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8012A0442279CB8A0013ACE1 /* liseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8012A0482279CB8A0013ACE1 /* liseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liseTests.swift; sourceTree = "<group>"; };
+		8012A04A2279CB8A0013ACE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8012A04F2279CB8A0013ACE1 /* liseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8012A0532279CB8A0013ACE1 /* liseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liseUITests.swift; sourceTree = "<group>"; };
+		8012A0552279CB8A0013ACE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CFBD1FFB0998C50F34B4DD /* Pods_liseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1F3136C3B9E5CE9EC5928E /* Pods_liseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A235FFAA439E5E37D40D24FA /* Pods-liseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liseUITests.release.xcconfig"; path = "Target Support Files/Pods-liseUITests/Pods-liseUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8012A02D2279CB880013ACE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF54F4F5E53131EB74A881C6 /* Pods_lise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8012A0412279CB8A0013ACE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CDE2D1716965B480FBA4F2 /* Pods_liseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8012A04C2279CB8A0013ACE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EE48B00B24455965977BEA /* Pods_liseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F3BC2915079582DE71048E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7424E9684B16DAC6A907573E /* Pods-lise.debug.xcconfig */,
+				1F57F96296A4C99E3EBBAF35 /* Pods-lise.release.xcconfig */,
+				15802373B6CBC4223DF7617E /* Pods-liseTests.debug.xcconfig */,
+				14A19E34C063EA1C1B05FAB5 /* Pods-liseTests.release.xcconfig */,
+				2FE5EF07916A492FB29EA506 /* Pods-liseUITests.debug.xcconfig */,
+				A235FFAA439E5E37D40D24FA /* Pods-liseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8012A0272279CB880013ACE1 = {
+			isa = PBXGroup;
+			children = (
+				8012A0322279CB890013ACE1 /* lise */,
+				8012A0472279CB8A0013ACE1 /* liseTests */,
+				8012A0522279CB8A0013ACE1 /* liseUITests */,
+				8012A0312279CB880013ACE1 /* Products */,
+				18F3BC2915079582DE71048E /* Pods */,
+				885891D67D44C7868EA1CF20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8012A0312279CB880013ACE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8012A0302279CB880013ACE1 /* lise.app */,
+				8012A0442279CB8A0013ACE1 /* liseTests.xctest */,
+				8012A04F2279CB8A0013ACE1 /* liseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8012A0322279CB890013ACE1 /* lise */ = {
+			isa = PBXGroup;
+			children = (
+				8012A0332279CB890013ACE1 /* AppDelegate.swift */,
+				8012A0352279CB890013ACE1 /* ViewController.swift */,
+				8012A0372279CB890013ACE1 /* Main.storyboard */,
+				8012A03A2279CB8A0013ACE1 /* Assets.xcassets */,
+				8012A03C2279CB8A0013ACE1 /* LaunchScreen.storyboard */,
+				8012A03F2279CB8A0013ACE1 /* Info.plist */,
+			);
+			path = lise;
+			sourceTree = "<group>";
+		};
+		8012A0472279CB8A0013ACE1 /* liseTests */ = {
+			isa = PBXGroup;
+			children = (
+				8012A0482279CB8A0013ACE1 /* liseTests.swift */,
+				8012A04A2279CB8A0013ACE1 /* Info.plist */,
+			);
+			path = liseTests;
+			sourceTree = "<group>";
+		};
+		8012A0522279CB8A0013ACE1 /* liseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8012A0532279CB8A0013ACE1 /* liseUITests.swift */,
+				8012A0552279CB8A0013ACE1 /* Info.plist */,
+			);
+			path = liseUITests;
+			sourceTree = "<group>";
+		};
+		885891D67D44C7868EA1CF20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76837F0E2F7E599BBC39EA94 /* Pods_lise.framework */,
+				84CFBD1FFB0998C50F34B4DD /* Pods_liseTests.framework */,
+				8D1F3136C3B9E5CE9EC5928E /* Pods_liseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8012A02F2279CB880013ACE1 /* lise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8012A0582279CB8A0013ACE1 /* Build configuration list for PBXNativeTarget "lise" */;
+			buildPhases = (
+				8A16DAC0F52BA2A3A649AB9B /* [CP] Check Pods Manifest.lock */,
+				8012A02C2279CB880013ACE1 /* Sources */,
+				8012A02D2279CB880013ACE1 /* Frameworks */,
+				8012A02E2279CB880013ACE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lise;
+			productName = lise;
+			productReference = 8012A0302279CB880013ACE1 /* lise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8012A0432279CB8A0013ACE1 /* liseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8012A05B2279CB8A0013ACE1 /* Build configuration list for PBXNativeTarget "liseTests" */;
+			buildPhases = (
+				ED1C32B4BE60A71A9ECB092B /* [CP] Check Pods Manifest.lock */,
+				8012A0402279CB8A0013ACE1 /* Sources */,
+				8012A0412279CB8A0013ACE1 /* Frameworks */,
+				8012A0422279CB8A0013ACE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8012A0462279CB8A0013ACE1 /* PBXTargetDependency */,
+			);
+			name = liseTests;
+			productName = liseTests;
+			productReference = 8012A0442279CB8A0013ACE1 /* liseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8012A04E2279CB8A0013ACE1 /* liseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8012A05E2279CB8A0013ACE1 /* Build configuration list for PBXNativeTarget "liseUITests" */;
+			buildPhases = (
+				D99F80CCAFD8EB48D8F07BBA /* [CP] Check Pods Manifest.lock */,
+				8012A04B2279CB8A0013ACE1 /* Sources */,
+				8012A04C2279CB8A0013ACE1 /* Frameworks */,
+				8012A04D2279CB8A0013ACE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8012A0512279CB8A0013ACE1 /* PBXTargetDependency */,
+			);
+			name = liseUITests;
+			productName = liseUITests;
+			productReference = 8012A04F2279CB8A0013ACE1 /* liseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8012A0282279CB880013ACE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Florian Woelki";
+				TargetAttributes = {
+					8012A02F2279CB880013ACE1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8012A0432279CB8A0013ACE1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8012A02F2279CB880013ACE1;
+					};
+					8012A04E2279CB8A0013ACE1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8012A02F2279CB880013ACE1;
+					};
+				};
+			};
+			buildConfigurationList = 8012A02B2279CB880013ACE1 /* Build configuration list for PBXProject "lise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8012A0272279CB880013ACE1;
+			productRefGroup = 8012A0312279CB880013ACE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8012A02F2279CB880013ACE1 /* lise */,
+				8012A0432279CB8A0013ACE1 /* liseTests */,
+				8012A04E2279CB8A0013ACE1 /* liseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8012A02E2279CB880013ACE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8012A03E2279CB8A0013ACE1 /* LaunchScreen.storyboard in Resources */,
+				8012A03B2279CB8A0013ACE1 /* Assets.xcassets in Resources */,
+				8012A0392279CB890013ACE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8012A0422279CB8A0013ACE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8012A04D2279CB8A0013ACE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A16DAC0F52BA2A3A649AB9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D99F80CCAFD8EB48D8F07BBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-liseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1C32B4BE60A71A9ECB092B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-liseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8012A02C2279CB880013ACE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8012A0362279CB890013ACE1 /* ViewController.swift in Sources */,
+				8012A0342279CB890013ACE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8012A0402279CB8A0013ACE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8012A0492279CB8A0013ACE1 /* liseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8012A04B2279CB8A0013ACE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8012A0542279CB8A0013ACE1 /* liseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8012A0462279CB8A0013ACE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8012A02F2279CB880013ACE1 /* lise */;
+			targetProxy = 8012A0452279CB8A0013ACE1 /* PBXContainerItemProxy */;
+		};
+		8012A0512279CB8A0013ACE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8012A02F2279CB880013ACE1 /* lise */;
+			targetProxy = 8012A0502279CB8A0013ACE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8012A0372279CB890013ACE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8012A0382279CB890013ACE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8012A03C2279CB8A0013ACE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8012A03D2279CB8A0013ACE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8012A0562279CB8A0013ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8012A0572279CB8A0013ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8012A0592279CB8A0013ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7424E9684B16DAC6A907573E /* Pods-lise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 577Y5S5458;
+				INFOPLIST_FILE = lise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianwoelki.lise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8012A05A2279CB8A0013ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F57F96296A4C99E3EBBAF35 /* Pods-lise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 577Y5S5458;
+				INFOPLIST_FILE = lise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianwoelki.lise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8012A05C2279CB8A0013ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15802373B6CBC4223DF7617E /* Pods-liseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 577Y5S5458;
+				INFOPLIST_FILE = liseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianwoelki.liseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lise.app/lise";
+			};
+			name = Debug;
+		};
+		8012A05D2279CB8A0013ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A19E34C063EA1C1B05FAB5 /* Pods-liseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 577Y5S5458;
+				INFOPLIST_FILE = liseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianwoelki.liseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lise.app/lise";
+			};
+			name = Release;
+		};
+		8012A05F2279CB8A0013ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE5EF07916A492FB29EA506 /* Pods-liseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 577Y5S5458;
+				INFOPLIST_FILE = liseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianwoelki.liseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lise;
+			};
+			name = Debug;
+		};
+		8012A0602279CB8A0013ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A235FFAA439E5E37D40D24FA /* Pods-liseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 577Y5S5458;
+				INFOPLIST_FILE = liseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianwoelki.liseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8012A02B2279CB880013ACE1 /* Build configuration list for PBXProject "lise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8012A0562279CB8A0013ACE1 /* Debug */,
+				8012A0572279CB8A0013ACE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8012A0582279CB8A0013ACE1 /* Build configuration list for PBXNativeTarget "lise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8012A0592279CB8A0013ACE1 /* Debug */,
+				8012A05A2279CB8A0013ACE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8012A05B2279CB8A0013ACE1 /* Build configuration list for PBXNativeTarget "liseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8012A05C2279CB8A0013ACE1 /* Debug */,
+				8012A05D2279CB8A0013ACE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8012A05E2279CB8A0013ACE1 /* Build configuration list for PBXNativeTarget "liseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8012A05F2279CB8A0013ACE1 /* Debug */,
+				8012A0602279CB8A0013ACE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8012A0282279CB880013ACE1 /* Project object */;
+}
