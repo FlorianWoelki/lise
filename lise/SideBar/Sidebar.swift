@@ -48,16 +48,23 @@ class Sidebar: UIViewController {
     
     func openMenu() {
         isMenuOpened = true
+        setNeedsStatusBarAppearanceUpdate()
     }
     
     func closeMenu() {
         isMenuOpened = false
+        setNeedsStatusBarAppearanceUpdate()
     }
     
     
     // MARK: Private Methods
     private func setupLayout() {
-        
+        NSLayoutConstraint.activate([
+            darkCoverView.topAnchor.constraint(equalTo: view.topAnchor),
+            darkCoverView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            darkCoverView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            darkCoverView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            ])
     }
     
 }
