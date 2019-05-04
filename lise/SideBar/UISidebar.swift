@@ -24,7 +24,12 @@ class UISidebar: UIView {
         }
     }
     
-    var mainViewController: UIViewController?
+    var mainController: UIViewController! {
+        didSet {
+            let gesture = UITapGestureRecognizer(target: self, action: #selector(handleTap))
+            //mainController.view.addGestureRecognizer(gesture)
+        }
+    }
     var mainViewLeadingConstraint: NSLayoutConstraint? {
         didSet {
             let gesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture))
@@ -54,14 +59,14 @@ class UISidebar: UIView {
     }
     
     func openSidebar() {
-        isMenuOpened = true
+        handleOpen()
         
         guard let delegate = delegate else { return }
         delegate.openSidebar()
     }
     
     func closeSidebar() {
-        isMenuOpened = false
+        handleClose()
         
         guard let delegate = delegate else { return }
         delegate.closeSidebar()
@@ -69,6 +74,10 @@ class UISidebar: UIView {
     
     
     // MARK: Private Methods
+    @objc private func handleTap() {
+        closeSidebar()
+    }
+    
     @objc private func handlePanGesture(gesture: UIPanGestureRecognizer) {
         guard let mainViewLeadingConstraint = mainViewLeadingConstraint else { return }
         
@@ -87,22 +96,38 @@ class UISidebar: UIView {
     }
     
     private func handleEnded(gesture: UIPanGestureRecognizer) {
-        guard let mainViewLeadingConstraint = mainViewLeadingConstraint else { return }
-        
         let translation = gesture.translation(in: self)
         
         if translation.x < sidebarWidth / 2 {
-            mainViewLeadingConstraint.constant = 0
-            isMenuOpened = false
+            handleClose()
         } else {
-            mainViewLeadingConstraint.constant = sidebarWidth
-            isMenuOpened = true
+            handleOpen()
         }
+    }
+    
+    private func handleClose() {
+        guard let mainViewLeadingConstraint = mainViewLeadingConstraint else { return }
         
+        isMenuOpened = false
+        mainViewLeadingConstraint.constant = 0
+        
+        performAnimation()
+    }
+    
+    private func handleOpen() {
+        guard let mainViewLeadingConstraint = mainViewLeadingConstraint else { return }
+        
+        isMenuOpened = true
+        mainViewLeadingConstraint.constant = sidebarWidth
+        
+        performAnimation()
+    }
+    
+    private func performAnimation() {
         UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-            guard let mainViewController = self.mainViewController else { return }
+            guard let mainController = self.mainController else { return }
             
-            mainViewController.view.layoutIfNeeded()
+            mainController.view.layoutIfNeeded()
         })
     }
     
