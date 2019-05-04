@@ -46,14 +46,20 @@ class Sidebar: UIViewController {
         setupLayout()
     }
     
-    func openMenu() {
+    func openSidebar() {
         isMenuOpened = true
         setNeedsStatusBarAppearanceUpdate()
+        
+        guard let delegate = delegate else { return }
+        delegate.openSidebar()
     }
     
-    func closeMenu() {
+    func closeSidebar() {
         isMenuOpened = false
         setNeedsStatusBarAppearanceUpdate()
+        
+        guard let delegate = delegate else { return }
+        delegate.closeSidebar()
     }
     
     
