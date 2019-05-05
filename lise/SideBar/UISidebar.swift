@@ -24,12 +24,22 @@ class UISidebar: UIView {
         }
     }
     
-    var mainController: UIViewController! {
+    var mainView: UIView! {
         didSet {
-            let gesture = UITapGestureRecognizer(target: self, action: #selector(handleTap))
-            //mainController.view.addGestureRecognizer(gesture)
+            mainView.addSubview(darkCoverView)
+            
+            NSLayoutConstraint.activate([
+                darkCoverView.topAnchor.constraint(equalTo: mainView.topAnchor),
+                darkCoverView.leadingAnchor.constraint(equalTo: mainView.leadingAnchor),
+                darkCoverView.bottomAnchor.constraint(equalTo: mainView.bottomAnchor),
+                darkCoverView.trailingAnchor.constraint(equalTo: mainView.trailingAnchor)
+                ])
+            
+            // let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTapDismiss))
+            // darkCoverView.addGestureRecognizer(tapGesture)
         }
     }
+    var mainController: UIViewController!
     var mainViewLeadingConstraint: NSLayoutConstraint? {
         didSet {
             let gesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture))
@@ -74,7 +84,7 @@ class UISidebar: UIView {
     
     
     // MARK: Private Methods
-    @objc private func handleTap() {
+    @objc private func handleTapDismiss() {
         closeSidebar()
     }
     
@@ -89,6 +99,7 @@ class UISidebar: UIView {
         x = max(0, x)
         
         mainViewLeadingConstraint.constant = x
+        darkCoverView.alpha = x / sidebarWidth
         
         if gesture.state == .ended {
             handleEnded(gesture: gesture)
@@ -128,16 +139,8 @@ class UISidebar: UIView {
             guard let mainController = self.mainController else { return }
             
             mainController.view.layoutIfNeeded()
+            self.darkCoverView.alpha = self.isMenuOpened ? 1 : 0
         })
     }
-    
-    /*private func setupLayout() {
-        NSLayoutConstraint.activate([
-            darkCoverView.topAnchor.constraint(equalTo: topAnchor),
-            darkCoverView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            darkCoverView.bottomAnchor.constraint(equalTo: bottomAnchor),
-            darkCoverView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            ])
-    }*/
     
 }

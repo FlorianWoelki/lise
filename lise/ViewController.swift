@@ -66,6 +66,7 @@ class ViewController: UIViewController {
         redViewLeadingConstraint.isActive = true
         
         sidebar.mainController = self
+        sidebar.mainView = redView
         sidebar.mainViewLeadingConstraint = redViewLeadingConstraint
     }
 
