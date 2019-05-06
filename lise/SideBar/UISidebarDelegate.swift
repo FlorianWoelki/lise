@@ -1,5 +1,5 @@
 //
-//  SidebarDelegate.swift
+//  UISidebarDelegate.swift
 //  lise
 //
 //  Created by Florian Woelki on 02.05.19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol SidebarDelegate: class {
+protocol UISidebarDelegate: class {
     
     func openSidebar()
     

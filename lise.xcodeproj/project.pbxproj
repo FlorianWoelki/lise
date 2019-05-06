@@ -13,7 +13,7 @@
 		8012A03E2279CB8A0013ACE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8012A03C2279CB8A0013ACE1 /* LaunchScreen.storyboard */; };
 		8012A0492279CB8A0013ACE1 /* liseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012A0482279CB8A0013ACE1 /* liseTests.swift */; };
 		8012A0542279CB8A0013ACE1 /* liseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012A0532279CB8A0013ACE1 /* liseUITests.swift */; };
-		802131A0227AE78200C848FB /* SidebarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021319F227AE78200C848FB /* SidebarDelegate.swift */; };
+		802131A0227AE78200C848FB /* UISidebarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021319F227AE78200C848FB /* UISidebarDelegate.swift */; };
 		802131A2227AE7BD00C848FB /* UISidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802131A1227AE7BD00C848FB /* UISidebar.swift */; };
 		94EE48B00B24455965977BEA /* Pods_liseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1F3136C3B9E5CE9EC5928E /* Pods_liseUITests.framework */; };
 		B4CDE2D1716965B480FBA4F2 /* Pods_liseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CFBD1FFB0998C50F34B4DD /* Pods_liseTests.framework */; };
@@ -56,7 +56,7 @@
 		8012A04F2279CB8A0013ACE1 /* liseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8012A0532279CB8A0013ACE1 /* liseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liseUITests.swift; sourceTree = "<group>"; };
 		8012A0552279CB8A0013ACE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8021319F227AE78200C848FB /* SidebarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarDelegate.swift; sourceTree = "<group>"; };
+		8021319F227AE78200C848FB /* UISidebarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISidebarDelegate.swift; sourceTree = "<group>"; };
 		802131A1227AE7BD00C848FB /* UISidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISidebar.swift; sourceTree = "<group>"; };
 		84CFBD1FFB0998C50F34B4DD /* Pods_liseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1F3136C3B9E5CE9EC5928E /* Pods_liseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,7 +160,7 @@
 		8021319E227AE77400C848FB /* SideBar */ = {
 			isa = PBXGroup;
 			children = (
-				8021319F227AE78200C848FB /* SidebarDelegate.swift */,
+				8021319F227AE78200C848FB /* UISidebarDelegate.swift */,
 				802131A1227AE7BD00C848FB /* UISidebar.swift */,
 			);
 			path = SideBar;
@@ -379,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8012A0362279CB890013ACE1 /* ViewController.swift in Sources */,
-				802131A0227AE78200C848FB /* SidebarDelegate.swift in Sources */,
+				802131A0227AE78200C848FB /* UISidebarDelegate.swift in Sources */,
 				802131A2227AE7BD00C848FB /* UISidebar.swift in Sources */,
 				8012A0342279CB890013ACE1 /* AppDelegate.swift in Sources */,
 			);
