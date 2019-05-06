@@ -12,7 +12,7 @@ class UISidebar: UIView {
     
     
     // MARK: Public Variables
-    weak var delegate: SidebarDelegate?
+    weak var delegate: UISidebarDelegate?
     
     var sidebarWidth: CGFloat!
     
