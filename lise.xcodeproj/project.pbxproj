@@ -131,7 +131,7 @@
 		8012A0322279CB890013ACE1 /* lise */ = {
 			isa = PBXGroup;
 			children = (
-				8021319E227AE77400C848FB /* SideBar */,
+				8021319E227AE77400C848FB /* Sidebar */,
 				8012A0332279CB890013ACE1 /* AppDelegate.swift */,
 				8012A0352279CB890013ACE1 /* ViewController.swift */,
 				8012A03A2279CB8A0013ACE1 /* Assets.xcassets */,
@@ -159,14 +159,14 @@
 			path = liseUITests;
 			sourceTree = "<group>";
 		};
-		8021319E227AE77400C848FB /* SideBar */ = {
+		8021319E227AE77400C848FB /* Sidebar */ = {
 			isa = PBXGroup;
 			children = (
 				8021319F227AE78200C848FB /* UISidebarDelegate.swift */,
 				802131A1227AE7BD00C848FB /* UISidebar.swift */,
 				800E8C0C22804E9200C0360F /* UISidebarMain.swift */,
 			);
-			path = SideBar;
+			path = Sidebar;
 			sourceTree = "<group>";
 		};
 		885891D67D44C7868EA1CF20 /* Frameworks */ = {
