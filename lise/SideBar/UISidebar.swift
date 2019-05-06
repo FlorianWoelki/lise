@@ -26,7 +26,7 @@ class UISidebar: UIView {
     
     var mainView: UIView! {
         didSet {
-            mainView.addSubview(darkCoverView)
+            addSubview(darkCoverView)
             
             NSLayoutConstraint.activate([
                 darkCoverView.topAnchor.constraint(equalTo: mainView.topAnchor),
@@ -35,8 +35,8 @@ class UISidebar: UIView {
                 darkCoverView.trailingAnchor.constraint(equalTo: mainView.trailingAnchor)
                 ])
             
-            // let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTapDismiss))
-            // darkCoverView.addGestureRecognizer(tapGesture)
+            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTapDismiss))
+            darkCoverView.addGestureRecognizer(tapGesture)
         }
     }
     var mainController: UIViewController!
@@ -46,6 +46,7 @@ class UISidebar: UIView {
             addGestureRecognizer(gesture)
         }
     }
+    
     
     // MARK: Private Variables
     private(set) var isMenuOpened = false
