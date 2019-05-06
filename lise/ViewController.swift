@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     private lazy var sidebar: UISidebar = {
         let sidebar = UISidebar()
         sidebar.sidebarWidth = 300
+        sidebar.isDarkCoverViewEnabled = true
         sidebar.translatesAutoresizingMaskIntoConstraints = false
         return sidebar
     }()
@@ -65,9 +66,7 @@ class ViewController: UIViewController {
         redViewLeadingConstraint = redView.leadingAnchor.constraint(equalTo: view.leadingAnchor)
         redViewLeadingConstraint.isActive = true
         
-        sidebar.mainController = self
-        sidebar.mainView = redView
-        sidebar.mainViewLeadingConstraint = redViewLeadingConstraint
+        sidebar.sidebarMain = UISidebarMain(mainView: redView, mainViewLeadingConstraint: redViewLeadingConstraint, mainController: self)
     }
 
 }
