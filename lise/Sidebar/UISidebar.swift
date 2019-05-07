@@ -16,6 +16,7 @@ class UISidebar: UIView {
     
     var sidebarWidth: CGFloat!
     var sidebarAnimationDelay: Double = 0.5
+    var velocityThreshold: CGFloat = 500
     
     var isDarkCoverViewEnabled: Bool = false
     
@@ -100,6 +101,31 @@ class UISidebar: UIView {
     
     private func handleEnded(gesture: UIPanGestureRecognizer) {
         let translation = gesture.translation(in: self)
+        let velocity = gesture.velocity(in: self)
+        
+        if isSidebarOpened {
+            if velocity.x < -velocityThreshold {
+                closeSidebar()
+                return
+            }
+            
+            if abs(translation.x) < sidebarWidth / 2 {
+                openSidebar()
+            } else {
+                closeSidebar()
+            }
+        } else {
+            if velocity.x > velocityThreshold {
+                openSidebar()
+                return
+            }
+            
+            if translation.x < sidebarWidth / 2 {
+                closeSidebar()
+            } else {
+                openSidebar()
+            }
+        }
         
         if translation.x < sidebarWidth / 2 {
             handleClose()
