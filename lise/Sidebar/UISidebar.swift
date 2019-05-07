@@ -21,7 +21,7 @@ class UISidebar: UIView {
     
     var sidebarMain: UISidebarMain! {
         didSet {
-            let gesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture))
+            let gesture = UIPanGestureRecognizer(target: self, action: #selector(handlePan))
             addGestureRecognizer(gesture)
             
             if isDarkCoverViewEnabled {
@@ -82,7 +82,7 @@ class UISidebar: UIView {
         closeSidebar()
     }
     
-    @objc private func handlePanGesture(gesture: UIPanGestureRecognizer) {
+    @objc private func handlePan(gesture: UIPanGestureRecognizer) {
         let translation = gesture.translation(in: self)
         var x = translation.x
         
