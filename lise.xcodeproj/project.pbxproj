@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8005C30D22844CEE0056AAB5 /* TweetsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005C30C22844CEE0056AAB5 /* TweetsController.swift */; };
 		8005C31022844D360056AAB5 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005C30F22844D360056AAB5 /* TweetCell.swift */; };
+		8005C31222844E720056AAB5 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005C31122844E720056AAB5 /* Extensions+UIView.swift */; };
 		800E8C0D22804E9200C0360F /* UISidebarMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800E8C0C22804E9200C0360F /* UISidebarMain.swift */; };
 		8012A0342279CB890013ACE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012A0332279CB890013ACE1 /* AppDelegate.swift */; };
 		8012A0362279CB890013ACE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012A0352279CB890013ACE1 /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 		76837F0E2F7E599BBC39EA94 /* Pods_lise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8005C30C22844CEE0056AAB5 /* TweetsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsController.swift; sourceTree = "<group>"; };
 		8005C30F22844D360056AAB5 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		8005C31122844E720056AAB5 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
 		800E8C0C22804E9200C0360F /* UISidebarMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISidebarMain.swift; sourceTree = "<group>"; };
 		8012A0302279CB880013ACE1 /* lise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8012A0332279CB890013ACE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				8005C30B22844CB60056AAB5 /* TwitterClone */,
 				8021319E227AE77400C848FB /* Sidebar */,
 				8012A0332279CB890013ACE1 /* AppDelegate.swift */,
+				8005C31122844E720056AAB5 /* Extensions+UIView.swift */,
 				8012A0352279CB890013ACE1 /* ViewController.swift */,
 				8012A03A2279CB8A0013ACE1 /* Assets.xcassets */,
 				8012A03C2279CB8A0013ACE1 /* LaunchScreen.storyboard */,
@@ -409,6 +412,7 @@
 				800E8C0D22804E9200C0360F /* UISidebarMain.swift in Sources */,
 				802131A0227AE78200C848FB /* UISidebarDelegate.swift in Sources */,
 				802131A2227AE7BD00C848FB /* UISidebar.swift in Sources */,
+				8005C31222844E720056AAB5 /* Extensions+UIView.swift in Sources */,
 				8012A0342279CB890013ACE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
