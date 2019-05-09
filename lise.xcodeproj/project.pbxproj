@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8005C30D22844CEE0056AAB5 /* TweetsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005C30C22844CEE0056AAB5 /* TweetsController.swift */; };
+		8005C31022844D360056AAB5 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005C30F22844D360056AAB5 /* TweetCell.swift */; };
 		800E8C0D22804E9200C0360F /* UISidebarMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800E8C0C22804E9200C0360F /* UISidebarMain.swift */; };
 		8012A0342279CB890013ACE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012A0332279CB890013ACE1 /* AppDelegate.swift */; };
 		8012A0362279CB890013ACE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012A0352279CB890013ACE1 /* ViewController.swift */; };
@@ -45,6 +47,8 @@
 		2FE5EF07916A492FB29EA506 /* Pods-liseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liseUITests.debug.xcconfig"; path = "Target Support Files/Pods-liseUITests/Pods-liseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7424E9684B16DAC6A907573E /* Pods-lise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lise.debug.xcconfig"; path = "Target Support Files/Pods-lise/Pods-lise.debug.xcconfig"; sourceTree = "<group>"; };
 		76837F0E2F7E599BBC39EA94 /* Pods_lise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8005C30C22844CEE0056AAB5 /* TweetsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsController.swift; sourceTree = "<group>"; };
+		8005C30F22844D360056AAB5 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 		800E8C0C22804E9200C0360F /* UISidebarMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISidebarMain.swift; sourceTree = "<group>"; };
 		8012A0302279CB880013ACE1 /* lise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8012A0332279CB890013ACE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8005C30B22844CB60056AAB5 /* TwitterClone */ = {
+			isa = PBXGroup;
+			children = (
+				8005C30E22844D2A0056AAB5 /* Views */,
+				8005C30C22844CEE0056AAB5 /* TweetsController.swift */,
+			);
+			path = TwitterClone;
+			sourceTree = "<group>";
+		};
+		8005C30E22844D2A0056AAB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8005C30F22844D360056AAB5 /* TweetCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8012A0272279CB880013ACE1 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +152,7 @@
 		8012A0322279CB890013ACE1 /* lise */ = {
 			isa = PBXGroup;
 			children = (
+				8005C30B22844CB60056AAB5 /* TwitterClone */,
 				8021319E227AE77400C848FB /* Sidebar */,
 				8012A0332279CB890013ACE1 /* AppDelegate.swift */,
 				8012A0352279CB890013ACE1 /* ViewController.swift */,
@@ -382,6 +404,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8012A0362279CB890013ACE1 /* ViewController.swift in Sources */,
+				8005C31022844D360056AAB5 /* TweetCell.swift in Sources */,
+				8005C30D22844CEE0056AAB5 /* TweetsController.swift in Sources */,
 				800E8C0D22804E9200C0360F /* UISidebarMain.swift in Sources */,
 				802131A0227AE78200C848FB /* UISidebarDelegate.swift in Sources */,
 				802131A2227AE7BD00C848FB /* UISidebar.swift in Sources */,
